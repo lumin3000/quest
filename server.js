@@ -1,9 +1,9 @@
 var daemon = require('daemon');
 
-require("debug");
+require("./debug");
 
 
-daemon.daemonize('tmp/stdout-and-stderr.log', 'tmp/shop.pid', function (err, pid) {
+daemon.daemonize('tmp/stdout-and-stderr.log', 'tmp/stop.pid', function (err, pid) {
     //
     // We are now in the daemon process
     //

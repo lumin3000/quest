@@ -1,4 +1,4 @@
-require("server/js/main");
+require("./server/js/main");
 var http = require("http"),
     url = require("url"),
     path = require("path"),
