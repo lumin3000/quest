@@ -1,0 +1,29 @@
+{
+  "name":                 "BrowserQuestBootstrap",
+  "version":              "0.0.1",
+  "description":          "",
+  "homepage":             "https://github.com/sjerrys/quest",
+  "main":                 "./server.js",
+  "author":               "sun chen <sjerrys@gmail.com>",
+  "keywords": [
+    "node"
+  ],
+  "repository": {
+    "type":               "git",
+    "url":                "git@github.com:sjerrys/quest.git"
+  },
+  "engines": {
+    "node":               ">= 0.6.0",
+    "npm":                "1"
+  },
+  "dependencies": {
+    "daemon":           "latest",
+    "underscore":       "latest",
+    "log":              "latest",
+    "bison":            "latest",
+    "websocket":        "latest",
+    "websocket-server": "latest",
+    "sanitizer":        "latest",
+    "memcache":         "latest"
+  }
+}
